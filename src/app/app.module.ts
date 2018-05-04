@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
-import { MdMenuModule, MdButtonModule, MdIconModule, MdCardModule, MdSidenavModule, MdToolbarModule } from '@angular/material';
+import { MatMenuModule, MatButtonModule, MatIconModule, MatCardModule, MatSidenavModule, MatToolbarModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 
@@ -22,12 +22,12 @@ import { ToolbardemoComponent } from './toolbardemo/toolbardemo.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MdMenuModule,
-    MdButtonModule,
-    MdIconModule,
-    MdCardModule,
-    MdSidenavModule,
-    MdToolbarModule
+    MatMenuModule,
+    MatButtonModule,
+    MatIconModule,
+    MatCardModule,
+    MatSidenavModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
